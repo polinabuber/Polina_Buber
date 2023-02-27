@@ -1,0 +1,23 @@
+body {
+  width: 1000px;
+}
+header {
+  text-align: right;
+}
+.address {
+  text-align: right;
+  font-style: italic;
+}
+.where {
+  text-align: right;
+  font-style: italic;
+}
+h2 {
+  text-align: left;
+  text-decoration: underline;
+  font-family: "Comforter Brush", cursive;
+  font-weight: bold;
+}
+.letter {
+  font-family: "Comforter Brush", cursive;
+}

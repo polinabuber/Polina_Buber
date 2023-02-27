@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      h3 {
+        margin: 0px;
+        padding: 0px;
+      }
+      p {
+        font-size: 20px;
+      }
+      .main {
+        background-color: rgba(211, 211, 211, 0.782);
+      }
+      .left {
+        background-color: rgba(63, 63, 63, 0.636);
+        width: 15em;
+
+        float: left;
+      }
+      .right {
+        background-color: #ababab;
+        margin-left: 15em;
+        margin-bottom: 0.2em;
+      }
+      ul {
+        font-size: 20px;
+      }
+      .bottom {
+        background-color: rgba(76, 75, 75, 0.74);
+        clear: both;
+        margin-bottom: 0em;
+      }
+      .img {
+        float: right;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left">
+        <h3>Блок навигации</h3>
+        <ul>
+          <li>Ширина 15em</li>
+          <li>Должен присутствовать цвет фона</li>
+          <li>Располагается слева</li>
+          <li>
+            Блок навигации наполняется контентом достаточным чтобы по высоте он
+            начинал захватывать вторую статью
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <h3>Статья 1</h3>
+        <p>
+          Размер блока:<br />Занимает всю доступную ширину<br />Должен
+          присутствовать цвет фона<br />Во всех сатьях сделайте отступ снизу от
+          соседей равным 2em, при помощи свойства margin-bottom.
+        </p>
+      </div>
+      <div class="right">
+        <h3>Статья 2</h3>
+        <p>
+          Размер блока:<br />Занимает всю доступную ширину<br />Должен
+          присутствовать цвет фона<br />Во всех статьях сделайте отступ снизу от
+          соседей равным 2em, при помощи свойства margin-bottom. Картинка
+          вставлена при помощи тэга, плавание организовано по правому краю
+          внутри данной статьи этой картинки.
+        </p>
+        <div class="img"><img src="post.png" /></div>
+        <div style="clear: both"></div>
+      </div>
+    </div>
+    <div class="bottom">
+      <p>
+        Подвал. Занимает всю доступную ширину. Высота определяется помещенным
+        внутрь контентом.
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+.cards {
+  width: 700px;
+  height: 200px;
+}
+.card1 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 570px 395px;
+  float: left;
+}
+.card2 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 0px 790px;
+  float: left;
+}
+.card3 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 280px 1190px;
+  float: left;
+}
+.card4 {
+  width: 150px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 140px 1385px;
+  float: left;
+}
+.card5 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 280px 197px;
+  float: left;
+}
+.cards_1 {
+  width: 500px;
+  height: 200px;
+}
+.card1_1 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 140px 1385px;
+  float: left;
+  padding: 0px 0px 0px 40px;
+}
+.card2_1 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 0px 790px;
+  float: left;
+  padding: 0px 0px 0px 40px;
+}
+.card3_1 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 280px 1190px;
+  float: left;
+  padding: 0px 0px 0px 40px;
+}
+.card4_1 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 570px 395px;
+  float: left;
+  padding: 0px 0px 0px 40px;
+}
+.card5_1 {
+  width: 140px;
+  height: 200px;
+  background-image: url(cards.png);
+  background-position: 280px 197px;
+  float: left;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 500px;
+      }
+      div {
+        border: 1px solid gray;
+        padding: 5px;
+        margin: 2px;
+      }
+      .word span {
+        visibility: hidden;
+        position: absolute;
+        left: 170px;
+      }
+      .pdf span {
+        visibility: hidden;
+        position: absolute;
+        left: 170px;
+      }
+      .archive span {
+        visibility: hidden;
+        position: absolute;
+        left: 170px;
+      }
+      .word:hover span {
+        visibility: visible;
+      }
+      .pdf:hover span {
+        visibility: visible;
+      }
+      .archive:hover span {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Форматы файлов.</h1>
+    <div>
+      .DOC или .doc (от англ.<img src="img1.png" /><a href="#">document</a> ) -
+      расширение имени файла, используемое для файлов, представляющих текст, с
+      разметкой или без. Расширение .DOC часто использовалось для обозначения
+      простых текстовых файлов без форматирования, однако позже стало
+      использоваться для двоичных форматов с разметкой. <br />
+      <a href="#">Документ MS Word</a><img src="img2.jfif" />
+    </div>
+    <div>
+      Portable Document Format (<img src="img1.png" /><a href="#">PDF</a>) -
+      межплатформенный формат электронных документов, разработанный фирмой Adobe
+      Systems с использованием ряда возмоностей языка Postscript.<br />
+      <a href="#">Документ PDF</a><img src="img4.png" />
+    </div>
+    <div>
+      ZIP - популярный формат сжатия данных и архивации файлов. Файл в этом
+      формате обычно имеет расширение <img src="img1.png" /><a href="#">.zip</a>
+      и хранит в сжатом или несжатом виде один или несколько файлов, которое
+      можно из него извлечь путём распаковки с помощью специальной программы.
+      <br />
+      <a href="#">ZIP</a><img src="img5.gif" />
+    </div>
+    <h1>Это список файлов</h1>
+    <img src="img3.jfif" /><a class="word" href="#"
+      >Документ MS Word<span> <img src="img2.jfif" /></span
+    ></a>
+    <br />
+    <img src="img3.jfif" /><a class="pdf" href="#"
+      >Документ PDF<span><img src="img4.png" /></span></a
+    ><br />
+    <img src="img3.jfif" /><a class="archive" href="#"
+      >Архив<span><img src="img5.gif" /></span
+    ></a>
+  </body>
+</html>

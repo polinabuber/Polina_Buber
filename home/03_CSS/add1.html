@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div.MenuLevel1 > div {
+      background-color: rgb(194, 194, 194);
+      border: solid black 1px;
+      color: gray;
+      position: relative;
+      cursor: pointer;
+      float: left;
+      width: 100px;
+      padding: 2px;
+    }
+    div.MenuLevel2 {
+      width: 150px;
+      height: 0px;
+      overflow: hidden;
+    }
+    div.MenuLevel2 > div {
+      background-color: rgb(194, 194, 194);
+      color: gray;
+      border: solid black 1px;
+      cursor: pointer;
+      padding: 2px;
+    }
+    div.MenuLevel1 > div:hover div.MenuLevel2 {
+      display: block;
+      position: absolute;
+      left: -3%;
+      top: 100%;
+      z-index: 1;
+      height: 100px;
+      transition: 1s;
+    }
+
+    @media all and (max-width: 650px) {
+      div.MenuLevel1 > div {
+        float: none;
+      }
+      div.MenuLevel2 {
+        display: block;
+        position: absolute;
+        left: 101%;
+        top: 0%;
+        z-index: 1;
+        height: 100px;
+        transition: 1s;
+      }
+    }
+  </style>
+
+  <div class="MenuLevel1">
+    <div>Понедельник</div>
+    <div>Вторник</div>
+    <div>
+      Среда
+      <div class="MenuLevel2">
+        <div>Завтрак</div>
+        <div>Обед</div>
+        <div>Ужин</div>
+      </div>
+    </div>
+    <div>Четверг</div>
+    <div>Пятница</div>
+    <div>Суббота</div>
+  </div>
+</html>
